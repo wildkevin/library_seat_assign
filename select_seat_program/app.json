@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#396895",
+    "navigationBarTitleText": "图书馆选座系统",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#396895",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/main_icon.png",
+      "selectedIconPath": "/images/main_icon_act.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "我的",
+      "iconPath": "/images/my_icon.png",
+      "selectedIconPath": "/images/my_icon_act.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
